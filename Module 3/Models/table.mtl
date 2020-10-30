@@ -1,0 +1,8 @@
+# Color definition for Tinkercad Obj File 2015
+
+newmtl color_15277357
+Ka 0.000000 0.000000 0.000000
+Kd 0.690196 0.407843 0.164706
+Ks 0.330000 0.330000 0.330000
+map_Kd cooking_counter/Amoora_og.jpg
+

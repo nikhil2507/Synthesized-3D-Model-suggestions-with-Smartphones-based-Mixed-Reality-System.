@@ -1,0 +1,78 @@
+<Group> obj_0 {
+  <Group> group_0_15277357 {
+    <VertexPool> group_0_15277357 {
+      <Vertex> 0 {
+        -2 -10 20
+      }
+      <Vertex> 1 {
+        -2 -10 0
+      }
+      <Vertex> 2 {
+        -2 10 0
+      }
+      <Vertex> 3 {
+        -2 10 20
+      }
+      <Vertex> 4 {
+        -22 10 20
+      }
+      <Vertex> 5 {
+        -22 10 0
+      }
+      <Vertex> 6 {
+        -22 -10 0
+      }
+      <Vertex> 7 {
+        -22 -10 20
+      }
+    }
+    <Polygon> {
+      <Normal> { 1 0 0 }
+      <VertexRef> { 0 1 2 <Ref> { group_0_15277357 } }
+    }
+    <Polygon> {
+      <Normal> { 1 0 0 }
+      <VertexRef> { 0 2 3 <Ref> { group_0_15277357 } }
+    }
+    <Polygon> {
+      <Normal> { -1 0 0 }
+      <VertexRef> { 4 5 6 <Ref> { group_0_15277357 } }
+    }
+    <Polygon> {
+      <Normal> { -1 0 0 }
+      <VertexRef> { 4 6 7 <Ref> { group_0_15277357 } }
+    }
+    <Polygon> {
+      <Normal> { 0 0 1 }
+      <VertexRef> { 3 4 7 <Ref> { group_0_15277357 } }
+    }
+    <Polygon> {
+      <Normal> { 0 0 1 }
+      <VertexRef> { 3 7 0 <Ref> { group_0_15277357 } }
+    }
+    <Polygon> {
+      <Normal> { 0 0 -1 }
+      <VertexRef> { 1 6 5 <Ref> { group_0_15277357 } }
+    }
+    <Polygon> {
+      <Normal> { 0 0 -1 }
+      <VertexRef> { 1 5 2 <Ref> { group_0_15277357 } }
+    }
+    <Polygon> {
+      <Normal> { 0 1 0 }
+      <VertexRef> { 3 2 5 <Ref> { group_0_15277357 } }
+    }
+    <Polygon> {
+      <Normal> { 0 1 0 }
+      <VertexRef> { 3 5 4 <Ref> { group_0_15277357 } }
+    }
+    <Polygon> {
+      <Normal> { 0 -1 0 }
+      <VertexRef> { 7 6 1 <Ref> { group_0_15277357 } }
+    }
+    <Polygon> {
+      <Normal> { 0 -1 0 }
+      <VertexRef> { 7 1 0 <Ref> { group_0_15277357 } }
+    }
+  }
+}
